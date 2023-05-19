@@ -11,7 +11,7 @@ const CardView: React.FC<IPersonProps> = props => {
     return (
         <div className="playingCards faceImages">
             <span className={cardClasses}>
-              <span className="rank">{props.rank}</span>
+              <span className="rank">{props.rank.toLowerCase()}</span>
               <span className="suit">{props.suit}</span>
             </span>
         </div>

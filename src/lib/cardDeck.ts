@@ -21,8 +21,7 @@ class CardDeck {
         return randomInt;
     };
 
-
-    getCards(howMany: number): Card[] {
+    getCards(howMany = 5): Card[] {
         const array: Card[] = [];
 
         for (let i = 0; i < howMany; i++) {

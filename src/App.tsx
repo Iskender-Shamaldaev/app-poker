@@ -25,6 +25,7 @@ const App = () => {
 
     return (
         <div className="App">
+            <div>{pokerHand.getOutcome()}</div>
             <CardView rank={cards[0].rank} suit={cards[0].suit} />
             <CardView rank={cards[1].rank} suit={cards[1].suit} />
             <CardView rank={cards[2].rank} suit={cards[2].suit} />

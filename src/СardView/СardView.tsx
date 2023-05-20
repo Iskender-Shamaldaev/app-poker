@@ -9,14 +9,15 @@ const CardView: React.FC<IPersonProps> = props => {
     const cardClasses = `card rank-${props.rank.toLowerCase()} ${props.suit}`;
 
     let symbol = '';
+
     if (props.suit === 'diams') {
         symbol = '♦'
-    } else if (props.suit === 'hearts'){
+    } else if (props.suit === 'hearts') {
         symbol = '♥'
-    } else if(props.suit === 'clubs'){
+    } else if (props.suit === 'clubs') {
         symbol = '♣'
-    } else if(props.suit === 'spades') {
-        symbol= '♠'
+    } else if (props.suit === 'spades') {
+        symbol = '♠'
     }
 
     return (

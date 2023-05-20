@@ -30,6 +30,7 @@ class CardDeck {
         }
         return array;
     }
+
 }
 
 export default CardDeck;

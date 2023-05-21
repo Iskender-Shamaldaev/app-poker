@@ -11,6 +11,7 @@ class PokerHand {
         let threeOfAKind = false;
         let flush = true;
 
+
         for (let i = 0; i < 4; i++) {
             const rankI = this.cards[i].rank;
             const suitI = this.cards[i].suit;
@@ -52,8 +53,6 @@ class PokerHand {
             return 'Нет комбинации';
         }
     };
-
-
 
 }
 

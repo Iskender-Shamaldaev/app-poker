@@ -1,3 +1,50 @@
+body {
+  background-image: url("../image/table.jpeg");
+}
+
 .App {
   text-align: center;
 }
+
+.cards {
+  display: flex;
+  align-items: center;
+  margin: 11px 0 0 546px;
+}
+
+.noCards {
+  width: 400px;
+  color: white;
+  font-size: 40px;
+  display: block;
+  margin: 329px 0 0 552px;
+  background: #333333;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin: 21px 0 0 -400px;
+}
+
+.btn:hover {
+  background-color: #3e8e41;
+}
+
+.btn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+

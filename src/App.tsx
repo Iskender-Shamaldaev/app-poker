@@ -9,6 +9,7 @@ import PokerHand from "./lib/pokerHand";
 const App = () => {
     const [cards, setCards] = useState<Card[]>([]);
 
+
     const getRandomCards = () => {
         const cardDeck = new CardDeck();
         const newCards = cardDeck.getCards();
@@ -25,7 +26,6 @@ const App = () => {
     }
 
     const pokerHand = new PokerHand(cards);
-    console.log(pokerHand.getOutcome());
 
     return (
         <div className="App">
